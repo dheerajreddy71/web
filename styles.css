@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    background-image: url("https://example.com/your-background-image.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+.stApp {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #4CAF50; /* Example color */
+}
+
+input, select, textarea {
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green for button hover */
+}
